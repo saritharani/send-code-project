@@ -1,0 +1,11 @@
+<h1 style="text-align: center">Register here</h1>
+
+<form>
+    FirstName <input name="firstName" type="text" [(ngModel)]="firstName"> <br>
+    lastName <input name="lastName" type="text" [(ngModel)]="lastName"> <br>
+    email <input name="emailId" type="text" [(ngModel)]="emailId"> <br>
+    password <input name="password" type="text" [(ngModel)]="password"> <br>
+    mobileNumber <input name="mobileNumber" type="text" [(ngModel)]="mobileNumber"> <br>
+    <button (click)="register()">Register Me</button>
+    {{response?.message}}
+</form>
